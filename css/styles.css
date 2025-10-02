@@ -1,3 +1,4 @@
+/* GENERALS */
 body {
 	background-color: #E0EBF5;
 	background-image: url("../images/background.jpg");
@@ -10,7 +11,7 @@ body {
 .main {
 	min-height: 105vh; 
 }
-
+/* NAVBAR */
 .navbar {
 	background-color: #D2E1EB;
 	position: fixed;
@@ -39,7 +40,7 @@ body {
 .navbar a:hover {
 	color: #C76B6B;
 }
-
+/* TEXT */
 h1 {
 	font-family: Verdana, sans-serif;
 }
@@ -47,7 +48,7 @@ h1 {
 p {
 	font-family: Tahoma, sans-serif;
 }
-
+/* IMAGE AND TEXT */
 .imgtext {
     display: flex;
     gap: 20px; 

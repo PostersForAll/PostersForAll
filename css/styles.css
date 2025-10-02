@@ -1,0 +1,33 @@
+body {
+	background-color: #E0EBF5;
+	margin: 0;
+}
+
+.navbar {
+	background-color: #D2E1EB;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+	list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+	color: #2C3E50;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	margin: 10px 5vw;
+	text-decoration: none;
+    transition: color 0.25s;
+}
+
+.navbar a:hover {
+	color: #C76B6B;
+}

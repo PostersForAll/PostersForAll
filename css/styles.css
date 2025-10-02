@@ -56,7 +56,7 @@ p {
     padding: 20px;
     margin: 0 auto; 
     flex-wrap: wrap; 
-    justify-content: center; /* Center items when they wrap */
+    justify-content: center;
 }
 
 .imgtext .img-frame {
@@ -75,5 +75,99 @@ p {
 
 .imgtext .text-content {
     flex-grow: 1; 
-    min-width: 300px; 
+    min-width: 300px;
+    max-width: 65%; 
+}
+/* ANNOUNCEMENT BOARD */
+.announcements {
+    max-width: 1200px; 
+    margin: 40px auto; 
+    padding: 20px;
+}
+
+.announcements .heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.announcements .heading h1 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.announcements .heading p {
+    color: #373C43; 
+    font-size: 1.1em;
+}
+
+.announcement-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+}
+
+.announcement-list .frame {
+    background-color: #FFFFFF; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    flex-basis: 300px; 
+    flex-grow: 1; 
+    max-width: 350px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.announcement-list .frame:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.announcement-list .frame h2 {
+    color: #2C3E50; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.announcement-list .frame h3 {
+    color: #2C3E50; 
+    font-family: Tahoma, sans-serif;
+    font-size: 0.8em;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.announcement-list .frame .info {
+    border-top: 1px solid #D2E1EB;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.announcement-list .frame .info h4 {
+    color: #FFFFFF;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 20px; 
+    display: inline-block; 
+    font-size: 0.8em; 
+}
+
+.announcement-list .frame .info .one {
+	background-color: #E34C25;
+}
+.announcement-list .frame .info .two {
+	background-color: #1F5E30;
+}
+
+.announcement-list .frame .info p {
+    color: #5D6D7E;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
 }

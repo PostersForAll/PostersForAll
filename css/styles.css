@@ -41,8 +41,15 @@ body {
 	color: #C76B6B;
 }
 /* TEXT */
+@font-face {
+	font-family: 'BubbleLetters';
+	src : url('../fonts/NegritaPro.ttf') format('truetype');
+}
 h1 {
-	font-family: Verdana, sans-serif;
+	font-family: 'BubbleLetters';
+	font-size: 44px;
+	text-shadow: 5px 5px #558acb;
+	color: #FFFFFF;
 }
 
 p {
@@ -91,7 +98,6 @@ p {
 }
 
 .announcements .heading h1 {
-    color: #000000;
     margin-bottom: 10px;
 }
 
